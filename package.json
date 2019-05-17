@@ -1,0 +1,21 @@
+{
+  "name": "openwhisk-amqp-trigger-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/unit",
+    "test-integration": "ava test/integration"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "openwhisk": "^3.19.0",
+    "winston": "^3.2.1"
+  }
+}

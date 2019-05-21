@@ -1,15 +1,17 @@
 {
   "name": "openwhisk-amqp-trigger-feed",
   "version": "1.0.0",
-  "description": "",
+  "description": "AMQP Trigger Feed Event Source for Apache OpenWhisk using the Pluggable Event Provider",
   "main": "index.js",
+  "keywords": ["openwhisk", "amqp"],
   "scripts": {
     "test": "ava test/unit",
     "test-integration": "ava test/integration"
   },
   "keywords": [],
-  "author": "",
-  "license": "Apache License 2.0",
+  "author": "James Thomas <james@jamesthom.as>",
+  "license": "Apache-2.0",
+  "repository": "github:jthomas/openwhisk-amqp-trigger-feed",
   "dependencies": {
     "amqplib": "^0.5.3"
   },

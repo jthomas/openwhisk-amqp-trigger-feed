@@ -58,7 +58,7 @@ wsk trigger get test-amqp-trigger
 
 ### running
 
-See the "[Pluggable OpenWhisk Event Provider](https://github.ibm.com/thomas6/openwhisk-pluggable-provider)" docs on how to run this event provider. The following environment parameters are needed for this feed provider.
+See the "[Pluggable OpenWhisk Event Provider](https://github.com/apache/incubator-openwhisk-pluggable-provider)" docs on how to run this event provider. The following environment parameters are needed for this feed provider.
 
 ### unit tests
 

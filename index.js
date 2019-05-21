@@ -10,6 +10,8 @@ const open_channel = async (url, options) => {
 
 const check_queue = async (url, options, queue) => {
   const channel = await open_channel(url, options)
+  channel.on('error', console.error)
+
   await channel.checkQueue(queue)
 }
 
